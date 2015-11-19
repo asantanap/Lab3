@@ -4,7 +4,9 @@ module.exports = function(sequelize, DataTypes) {
   return sequelize.define(
     	'Videos',
       { etiquetaVideo: DataTypes.STRING,
-        direccionVideo: DataTypes.STRING
+        direccionVideo: DataTypes.STRING,
+        etiquetaFecha: DataTypes.STRING,
+        etiquetaCal: DataTypes.STRING
       }
     );
   }
